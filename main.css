@@ -1,0 +1,28 @@
+.container {
+    padding: 0;
+    margin: 0;
+}
+.item {
+    width: 100px;
+    height: 100px;
+    list-style-type: none;
+}
+.item:first-child {
+    background-color: red;
+    position: relative;
+    top: 80px;
+    left: 30px;
+}
+.item:nth-child(2) {
+    background-color: blue;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    z-index: 1;
+}
+.item:nth-child(3) {
+    background-color: green;
+    position: relative;
+    top: 25px;
+    left: 170px;
+}
